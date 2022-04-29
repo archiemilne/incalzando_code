@@ -270,7 +270,7 @@ public class Game : MonoBehaviour
     public bool Gdim7 = false;
     public bool Gsdim7 = false;
 
-    //Sustained Seconds (e.g. 'Csus2')
+    //Suspended Seconds (e.g. 'Csus2')
     public bool Asus2 = false;
     public bool Assus2 = false;
     public bool Bsus2 = false;
@@ -284,7 +284,7 @@ public class Game : MonoBehaviour
     public bool Gsus2 = false;
     public bool Gssus2 = false;
 
-    //Sustained Fourths (e.g. 'Csus4')
+    //Suspended Fourths (e.g. 'Csus4')
     public bool Asus4 = false;
     public bool Assus4 = false;
     public bool Bsus4 = false;
@@ -1914,85 +1914,85 @@ public class Game : MonoBehaviour
             Gsdim7 = false;
         }
 
-        //Sustained Seconds (e.g. 'Csus2')
-        //A Sustained Second
+        //Suspended Seconds (e.g. 'Csus2')
+        //A Suspended Second
         if(toggleA == true && toggleAs == false && toggleB == true && toggleC == false && toggleCs == false && toggleD == false && toggleDs == false && toggleE == true && toggleF == false && toggleFs == false && toggleG == false && toggleGs == false){
             Asus2 = true;
         }
         else{
             Asus2 = false;
         }
-        //A Sharp / B Flat Sustained Second
+        //A Sharp / B Flat Suspended Second
         if(toggleA == false && toggleAs == true && toggleB == false && toggleC == true && toggleCs == false && toggleD == false && toggleDs == false && toggleE == false && toggleF == true && toggleFs == false && toggleG == false && toggleGs == false){
             Assus2 = true;
         }
         else{
             Assus2 = false;
         }
-        //B Sustained Second
+        //B Suspended Second
         if(toggleA == false && toggleAs == false && toggleB == true && toggleC == false && toggleCs == true && toggleD == false && toggleDs == false && toggleE == false && toggleF == false && toggleFs == true && toggleG == false && toggleGs == false){
             Bsus2 = true;
         }
         else{
             Bsus2 = false;
         }
-        //C Sustained Second
+        //C Suspended Second
         if(toggleA == false && toggleAs == false && toggleB == false && toggleC == true && toggleCs == false && toggleD == true && toggleDs == false && toggleE == false && toggleF == false && toggleFs == false && toggleG == true && toggleGs == false){
             Csus2 = true;
         }
         else{
             Csus2 = false;
         }
-        //C Sharp / D Flat Sustained Second
+        //C Sharp / D Flat Suspended Second
         if(toggleA == false && toggleAs == false && toggleB == false && toggleC == false && toggleCs == true && toggleD == false && toggleDs == true && toggleE == false && toggleF == false && toggleFs == false && toggleG == false && toggleGs == true){
             Cssus2 = true;
         }
         else{
             Cssus2 = false;
         }
-        //D Sustained Second
+        //D Suspended Second
         if(toggleA == true && toggleAs == false && toggleB == false && toggleC == false && toggleCs == false && toggleD == true && toggleDs == false && toggleE == true && toggleF == false && toggleFs == false && toggleG == false && toggleGs == false){
             Dsus2 = true;
         }
         else{
             Dsus2 = false;
         }
-        //D Sharp / E Flat Sustained Second
+        //D Sharp / E Flat Suspended Second
         if(toggleA == false && toggleAs == true && toggleB == false && toggleC == false && toggleCs == false && toggleD == false && toggleDs == true && toggleE == false && toggleF == true && toggleFs == false && toggleG == false && toggleGs == false){
             Dssus2 = true;
         }
         else{
             Dssus2 = false;
         }
-        //E Sustained Second
+        //E Suspended Second
         if(toggleA == false && toggleAs == false && toggleB == true && toggleC == false && toggleCs == false && toggleD == false && toggleDs == false && toggleE == true && toggleF == false && toggleFs == true && toggleG == false && toggleGs == false){
             Esus2 = true;
         }
         else{
             Esus2 = false;
         }
-        //F Sustained Second
+        //F Suspended Second
         if(toggleA == false && toggleAs == false && toggleB == false && toggleC == true && toggleCs == false && toggleD == false && toggleDs == false && toggleE == false && toggleF == true && toggleFs == false && toggleG == true && toggleGs == false){
             Fsus2 = true;
         }
         else{
             Fsus2 = false;
         }
-        //F Sharp / G Flat Sustained Second
+        //F Sharp / G Flat Suspended Second
         if(toggleA == false && toggleAs == false && toggleB == false && toggleC == false && toggleCs == true && toggleD == false && toggleDs == false && toggleE == false && toggleF == false && toggleFs == true && toggleG == false && toggleGs == true){
             Fssus2 = true;
         }
         else{
             Fssus2 = false;
         }
-        //G Sustained Second
+        //G Suspended Second
         if(toggleA == true && toggleAs == false && toggleB == false && toggleC == false && toggleCs == false && toggleD == true && toggleDs == false && toggleE == false && toggleF == false && toggleFs == false && toggleG == true && toggleGs == false){
             Gsus2 = true;
         }
         else{
             Gsus2 = false;
         }
-        //G Sharp / A Flat Sustained Second
+        //G Sharp / A Flat Suspended Second
         if(toggleA == false && toggleAs == true && toggleB == false && toggleC == false && toggleCs == false && toggleD == false && toggleDs == true && toggleE == false && toggleF == false && toggleFs == false && toggleG == false && toggleGs == true){
             Gssus2 = true;
         }
@@ -2000,85 +2000,85 @@ public class Game : MonoBehaviour
             Gssus2 = false;
         }
 
-        //Sustained Fourths (e.g. 'Csus4')
-        //A Sustained Fourth
+        //Suspended Fourths (e.g. 'Csus4')
+        //A Suspended Fourth
         if(toggleA == true && toggleAs == false && toggleB == false && toggleC == false && toggleCs == false && toggleD == true && toggleDs == false && toggleE == true && toggleF == false && toggleFs == false && toggleG == false && toggleGs == false){
             Asus4 = true;
         }
         else{
             Asus4 = false;
         }
-        //A Sharp / B Flat Sustained Fourth
+        //A Sharp / B Flat Suspended Fourth
         if(toggleA == false && toggleAs == true && toggleB == false && toggleC == false && toggleCs == false && toggleD == false && toggleDs == true && toggleE == false && toggleF == true && toggleFs == false && toggleG == false && toggleGs == false){
             Assus4 = true;
         }
         else{
             Assus4 = false;
         }
-        //B Sustained Fourth
+        //B Suspended Fourth
         if(toggleA == false && toggleAs == false && toggleB == true && toggleC == false && toggleCs == false && toggleD == false && toggleDs == false && toggleE == true && toggleF == false && toggleFs == true && toggleG == false && toggleGs == false){
             Bsus4 = true;
         }
         else{
             Bsus4 = false;
         }
-        //C Sustained Fourth
+        //C Suspended Fourth
         if(toggleA == false && toggleAs == false && toggleB == false && toggleC == true && toggleCs == false && toggleD == false && toggleDs == false && toggleE == false && toggleF == true && toggleFs == false && toggleG == true && toggleGs == false){
             Csus4 = true;
         }
         else{
             Csus4 = false;
         }
-        //C Sharp / D Flat Sustained Fourth
+        //C Sharp / D Flat Suspended Fourth
         if(toggleA == false && toggleAs == false && toggleB == false && toggleC == false && toggleCs == true && toggleD == false && toggleDs == false && toggleE == false && toggleF == false && toggleFs == true && toggleG == false && toggleGs == true){
             Cssus4 = true;
         }
         else{
             Cssus4 = false;
         }
-        //D Sustained Fourth
+        //D Suspended Fourth
         if(toggleA == true && toggleAs == false && toggleB == false && toggleC == false && toggleCs == false && toggleD == true && toggleDs == false && toggleE == false && toggleF == false && toggleFs == false && toggleG == true && toggleGs == false){
             Dsus4 = true;
         }
         else{
             Dsus4 = false;
         }
-        //D Sharp / E Flat Sustained Fourth
+        //D Sharp / E Flat Suspended Fourth
         if(toggleA == false && toggleAs == true && toggleB == false && toggleC == false && toggleCs == false && toggleD == false && toggleDs == true && toggleE == false && toggleF == false && toggleFs == false && toggleG == false && toggleGs == true){
             Dssus4 = true;
         }
         else{
             Dssus4 = false;
         }
-        //E Sustained Fourth
+        //E Suspended Fourth
         if(toggleA == true && toggleAs == false && toggleB == true && toggleC == false && toggleCs == false && toggleD == false && toggleDs == false && toggleE == true && toggleF == false && toggleFs == false && toggleG == false && toggleGs == false){
             Esus4 = true;
         }
         else{
             Esus4 = false;
         }
-        //F Sustained Fourth
+        //F Suspended Fourth
         if(toggleA == false && toggleAs == true && toggleB == false && toggleC == true && toggleCs == false && toggleD == false && toggleDs == false && toggleE == false && toggleF == true && toggleFs == false && toggleG == false && toggleGs == false){
             Fsus4 = true;
         }
         else{
             Fsus4 = false;
         }
-        //F Sharp / G Flat Sustained Fourth
+        //F Sharp / G Flat Suspended Fourth
         if(toggleA == false && toggleAs == false && toggleB == true && toggleC == false && toggleCs == true && toggleD == false && toggleDs == false && toggleE == false && toggleF == false && toggleFs == true && toggleG == false && toggleGs == false){
             Fssus4 = true;
         }
         else{
             Fssus4 = false;
         }
-        //G Sustained Fourth
+        //G Suspended Fourth
         if(toggleA == false && toggleAs == false && toggleB == false && toggleC == true && toggleCs == false && toggleD == true && toggleDs == false && toggleE == false && toggleF == false && toggleFs == false && toggleG == true && toggleGs == false){
             Gsus4 = true;
         }
         else{
             Gsus4 = false;
         }
-        //G Sharp / A Flat Sustained Fourth
+        //G Sharp / A Flat Suspended Fourth
         if(toggleA == false && toggleAs == false && toggleB == false && toggleC == false && toggleCs == true && toggleD == false && toggleDs == true && toggleE == false && toggleF == false && toggleFs == false && toggleG == false && toggleGs == true){
             Gssus4 = true;
         }
@@ -3421,7 +3421,7 @@ public class Game : MonoBehaviour
             }
         }
         if (gameModeNumber == 8){
-            Debug.Log("Number "+gameModeNumber+" is Sustained Seconds (e.g. 'Csus2')");
+            Debug.Log("Number "+gameModeNumber+" is Suspended Seconds (e.g. 'Csus2')");
             if (levelCount > 0){
                 if (submitAns == true){
                     if (currentNote == "A" && Asus2 == true){
@@ -3470,7 +3470,7 @@ public class Game : MonoBehaviour
             }
         }
         if (gameModeNumber == 9){
-            Debug.Log("Number "+gameModeNumber+" is Sustained Fourths (e.g. 'Csus4')");
+            Debug.Log("Number "+gameModeNumber+" is Suspended Fourths (e.g. 'Csus4')");
             if (levelCount > 0){
                 if (submitAns == true){
                     if (currentNote == "A" && Asus4 == true){

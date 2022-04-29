@@ -135,10 +135,10 @@ public class GameText : MonoBehaviour
     public void endScore(){
         scoreText2.text = "Score: "+Game.score;
         if (Game.score == 100){
-            hintAndMistakeText.text = "You used "+Game.hintCount+" and made "+Game.mistakeCount+" mistakes, well done!";
+            hintAndMistakeText.text = "You used "+Game.hintCount+" hints and made "+Game.mistakeCount+" mistakes, well done!";
         }
         else{
-            hintAndMistakeText.text = "You used "+Game.hintCount+" and made "+Game.mistakeCount+" mistakes, try again!";
+            hintAndMistakeText.text = "You used "+Game.hintCount+" hints and made "+Game.mistakeCount+" mistakes, try again!";
         }
     }
 
@@ -241,6 +241,7 @@ public class GameText : MonoBehaviour
             img.sprite = hintTwentyThree;
         }
         Game.score -= 5;
+        Game.hintCount ++;
     }
 
     public void HintBackButton(){
