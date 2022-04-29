@@ -1,0 +1,61 @@
+fileFormatVersion: 2
+guid: cfc1105fbb8a0244ca8cf85f1c34b91c
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - A: {fileID: 2100000, guid: f3c2458472ddfaa47a10f2f66e335c41, type: 2}
+  - As: {fileID: 2100000, guid: 055e68ad14a7db44b8e44b7e4c7f72f3, type: 2}
+  - B: {fileID: 2100000, guid: d9c4a0d382d028343a04de1d81258b66, type: 2}
+  - C: {fileID: 2100000, guid: 6d9fef9927269a844854d69e92a653ac, type: 2}
+  - Cs: {fileID: 2100000, guid: b105efc82ccab86498c81f822abefcb6, type: 2}
+  - D: {fileID: 2100000, guid: 04a11ce6101cf5a4c88a3004d52bbb78, type: 2}
+  - Ds: {fileID: 2100000, guid: 8bbcc8a3755c92544bcc8f05a51fead0, type: 2}
+  - E: {fileID: 2100000, guid: 5adfc11a63d6ce44590fb8481786ca43, type: 2}
+  - F: {fileID: 2100000, guid: b753b0fb9e311a74aa32a235d10b16d5, type: 2}
+  - Fs: {fileID: 2100000, guid: dcf93acc704e8794e9787bd98dfe1925, type: 2}
+  - G: {fileID: 2100000, guid: f63b578455c90614b8d9ae5e4c76179c, type: 2}
+  - Gs: {fileID: 2100000, guid: 9a28350417add86419c31597dab72f37, type: 2}
+  - white: {fileID: 2100000, guid: fc85ed0794d7e0c479f4d67402439d13, type: 2}
+  - black: {fileID: 2100000, guid: ec411ea8defc4e042bbce37eae1e07bb, type: 2}
+  - A3: {fileID: 8300000, guid: 8a1b1cbab8d0ef4408ef3a5a10684e0f, type: 3}
+  - As3: {fileID: 8300000, guid: 36d22192a5eff4743a076425d0761c0a, type: 3}
+  - B3: {fileID: 8300000, guid: 930244f8bc499394fbd514db59895e54, type: 3}
+  - C3: {fileID: 8300000, guid: e02a45ed30871284fb96bd0308b76d26, type: 3}
+  - Cs3: {fileID: 8300000, guid: 8ad5eeb9e89268c4a819b34feb337a91, type: 3}
+  - D3: {fileID: 8300000, guid: d6834db6d467d034a96c91eb4214c6ca, type: 3}
+  - Ds3: {fileID: 8300000, guid: d9fbff0ed7a71a54587e1dc9ab54ca1b, type: 3}
+  - E3: {fileID: 8300000, guid: 8a055d5d6c206084c9726578dac20aa6, type: 3}
+  - F3: {fileID: 8300000, guid: ab70185a8082c6a4d8587aacb38a9e26, type: 3}
+  - Fs3: {fileID: 8300000, guid: 3c94e3afbd159d74f93bbd521782d58d, type: 3}
+  - G3: {fileID: 8300000, guid: 99a3cee2c8cb82e4fa81553714a1f668, type: 3}
+  - Gs3: {fileID: 8300000, guid: b243d5c62a5a6fb4ca58414fcec3e300, type: 3}
+  - A4: {fileID: 8300000, guid: aeaa29c595736a04c9cf954edd4568a8, type: 3}
+  - As4: {fileID: 8300000, guid: b4bdc1888c0026a40afc38ebd32ebc48, type: 3}
+  - B4: {fileID: 8300000, guid: 134ffa8c1bcf9cb4c81dc002cbd630de, type: 3}
+  - C4: {fileID: 8300000, guid: 0d02b8b3160d9964e8e76dc5a61d8c03, type: 3}
+  - Cs4: {fileID: 8300000, guid: 13b196db07b357f4aa745db5f9281dc6, type: 3}
+  - D4: {fileID: 8300000, guid: 2f897561ddb1ac945a44ccec39faee87, type: 3}
+  - Ds4: {fileID: 8300000, guid: 1164629e43079434c91c245c2fdd6de0, type: 3}
+  - E4: {fileID: 8300000, guid: 66fbb537a6918d14090f42ac8238432b, type: 3}
+  - F4: {fileID: 8300000, guid: 10cc9149e62985942b1e79c6193b7cef, type: 3}
+  - Fs4: {fileID: 8300000, guid: 020b38780118bbc499d9e3ec6d6e28f0, type: 3}
+  - G4: {fileID: 8300000, guid: 7386dcc46665c6845b3d8ad1cd21664a, type: 3}
+  - Gs4: {fileID: 8300000, guid: a36f0e70dbfc57f4dbe0ae952d997147, type: 3}
+  - A5: {fileID: 8300000, guid: 095981d1450bb364e84df981e0fd3f79, type: 3}
+  - As5: {fileID: 8300000, guid: 511116c87b3157843820ed3eb9cf6418, type: 3}
+  - B5: {fileID: 8300000, guid: cdb54af9bfa9be54d9a98bf1b2b6f115, type: 3}
+  - C5: {fileID: 8300000, guid: 39434283f95d02549812ab251ef3161e, type: 3}
+  - Cs5: {fileID: 8300000, guid: e702ee4417e08e240926d4ab3ca0ea95, type: 3}
+  - D5: {fileID: 8300000, guid: a3cca663626a0e548a21de8b276a3e40, type: 3}
+  - Ds5: {fileID: 8300000, guid: 12751e9ba3889074dab0f62617fc550e, type: 3}
+  - E5: {fileID: 8300000, guid: 67e7b086fad81714eade7737d8baed10, type: 3}
+  - F5: {fileID: 8300000, guid: 4c1857f3922066149a72ac95e2ef2211, type: 3}
+  - Fs5: {fileID: 8300000, guid: 37990571e7173cc4a83d6cdb1a2188a3, type: 3}
+  - G5: {fileID: 8300000, guid: 55f9be4a47bec5348a1bb5f7e8ed7c15, type: 3}
+  - Gs5: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
