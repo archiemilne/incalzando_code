@@ -685,7 +685,7 @@ MonoBehaviour:
     the chord to create at the top of the screen and you must use the piano provided
     to create the chord. The piano keys work on a toggle, so if you make a mistake
     you need to click the key again to disable it.\n\nTo get a hint, press the questionmark
-    (?) button to the left of the Current Chord display. This button only appears
+    (?) button to the right of the Current Chord display. This button only appears
     after three mistakes are made.\n \nThe scoring system works by removing two points
     for each mistake made, and removing five points for each hint used. The levels
     in the Level Select menu change colour based on how well you score. It starts
